@@ -42,9 +42,12 @@ I hope you've found this useful.
 
 ### Sources
 [archlinux wiki Hardware video acceleration](https://wiki.archlinux.org/title/Hardware_video_acceleration)  
-[archlinux wiki Hardware video acceleration Firefox](https://wiki.archlinux.org/title/Firefox#Hardware_video_acceleration)
+[archlinux wiki Hardware video acceleration Firefox](https://wiki.archlinux.org/title/Firefox#Hardware_video_acceleration)  
 [Enhancing Graphics Performance on Debian 12: A Comprehensive Guide to Installing Mesa Drivers](https://shape.host/resources/enhancing-graphics-performance-on-debian-12-a-comprehensive-guide-to-installing-mesa-drivers)  
-[Enabling accelerated video decoding in Firefox on Ubuntu 21.04](https://discourse.ubuntu.com/t/enabling-accelerated-video-decoding-in-firefox-on-ubuntu-21-04/22081)
+[Enabling accelerated video decoding in Firefox on Ubuntu 21.04](https://discourse.ubuntu.com/t/enabling-accelerated-video-decoding-in-firefox-on-ubuntu-21-04/22081)  
 [Mesa 24 in Debian backports](https://www.reddit.com/r/linux_gaming/comments/1fqh7s5/debian_has_mesa_24_now/)  
-[amdgpu kernel module parameters](https://docs.kernel.org/gpu/amdgpu/module-parameters.html)
-[amdgpu kernel module parameters (older doc)](https://www.kernel.org/doc/html/v5.1/gpu/amdgpu.html)
+[amdgpu kernel module parameters](https://docs.kernel.org/gpu/amdgpu/module-parameters.html)  
+[amdgpu kernel module parameters (older doc)](https://www.kernel.org/doc/html/v5.1/gpu/amdgpu.html)  
+[Firefox hardware acceleration issue](https://bbs.archlinux.org/viewtopic.php?id=300639)  
+[Dedicated GPU only using 256MB of memory instead of full 2GB](https://bbs.archlinux.org/viewtopic.php?id=252954)  
+[How to allocate more memory to my Ryzen APU's GPU?](https://github.com/ROCm/ROCm/issues/2014)  
