@@ -39,6 +39,12 @@ NOTE: 1024 MB may be enough, but 2048 MB seems to be better.
 
 I hope you've found this useful.  
 
+2025.02.10 Update:  
+Not using the gartsize kernel parameter results in dropped frames every once in a while when playing a video on youtube.  
+The video / picture stops for a second (or less), but the audio keeps playing uninterrupted, so it is not a buffering issue.  
+  
+Using gartsize=2048 seem to make Firefox snappy, but a game I play freezes after a few hours.  
+Not sure if gartsize only takes a chunk of memory without making it unavailable for other software and hence memory gets corrupted or there is an issue with the game itself.  
 
 ### Sources
 [archlinux wiki Hardware video acceleration](https://wiki.archlinux.org/title/Hardware_video_acceleration)  
