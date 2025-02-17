@@ -46,6 +46,9 @@ The video / picture stops for a second (or less), but the audio keeps playing un
 Using gartsize=2048 seem to make Firefox snappy, but a game I play freezes after a few hours.  
 Not sure if gartsize only takes a chunk of memory without making it unavailable for other software and hence memory gets corrupted or there is an issue with the game itself.  
 
+2025.02.17 Update:  
+Using gartsize=1024 seem to be good enough. Video playback is not 100%, but I also don't get game crashes.  
+
 ### Sources
 [archlinux wiki Hardware video acceleration](https://wiki.archlinux.org/title/Hardware_video_acceleration)  
 [archlinux wiki Hardware video acceleration Firefox](https://wiki.archlinux.org/title/Firefox#Hardware_video_acceleration)  
