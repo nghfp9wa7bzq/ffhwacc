@@ -53,6 +53,12 @@ Using gartsize=1024 seem to be good enough. Video playback is not 100%, but I al
 Using gartsize=1024 Xorg crashes while watching a video...  
 I have updated mesa to 24.3.4 with the kisak-mesa PPA, and the kernel to 6.12.9+bpo-amd64.  
 Using gartsize=1024 Xorg crashes while watching a video...  
+
+2025.02.22. Update:  
+With no gartsize setting, iGPU became unusable for video playback with same settings. (1.75x or 2x speed 1080p)  
+It drops 2/3 of the frames...  
+It was way better before, only occasonally stuttering.  
+(2nd GPU works fine as before, but I wouldn't want to use that, because unlike the iGPU it does not have hardware decoding and I need it for games. LOL)  
   
 ### Sources
 [archlinux wiki Hardware video acceleration](https://wiki.archlinux.org/title/Hardware_video_acceleration)  
