@@ -59,6 +59,16 @@ With no gartsize setting, iGPU became unusable for video playback with same sett
 It drops 2/3 of the frames...  
 It was way better before, only occasonally stuttering.  
 (2nd GPU works fine as before, but I wouldn't want to use that, because unlike the iGPU it does not have hardware decoding and I need it for games. LOL)  
+
+2025.02.28. Update:  
+Turns out there is a [shader cache bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1921742) in mesa or Firefox.  
+I have deleted the mesa_shader_cache folder and start FF from command line with:  
+```
+MESA_SHADER_CACHE_DIR=/home/user/.cache/mesa_shader_cache/ firefox
+```
+This recreates the folder. Otherwise FF complains that it can't write to it...  
+I have also set `gfx.webrender.all` to false in `about:config` in FF.  
+With gartsize=1024 video playback seems normal.  
   
 ### Sources
 [archlinux wiki Hardware video acceleration](https://wiki.archlinux.org/title/Hardware_video_acceleration)  
