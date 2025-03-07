@@ -69,6 +69,12 @@ MESA_SHADER_CACHE_DIR=/home/user/.cache/mesa_shader_cache/ firefox
 This recreates the folder. Otherwise FF complains that it can't write to it...  
 I have also set `gfx.webrender.all` to false in `about:config` in FF.  
 With gartsize=1024 video playback seems normal.  
+
+2025.03.07. Update:  
+Now using Librewolf with same settings.  
+`gfx.webrender.all` makes websites snappy, but causes random 'hangs' in video playback,  
+where the sound goes on as normal, but the picture freezes for a moment.  
+NOTE that there are no dropped frames being reported.  
   
 ### Sources
 [archlinux wiki Hardware video acceleration](https://wiki.archlinux.org/title/Hardware_video_acceleration)  
